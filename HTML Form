@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Registration forms</title>
+  <style>
+    input{
+      margin-bottom: 15px;
+    }
+    body{
+      background-color: aqua;
+    }
+.form{
+  background-color: white;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  
+}
+.irshad{
+  width: 280px;
+}
+.heading{
+  text-align: center;
+}
+    </style>
+</head>
+
+<body>
+  <h1 class="heading">Registration Form</h1>
+  <form class="form" method="get" action="/myserver">
+    Name<br><input type="text" name="name" placeholder="fill ur name" class="irshad"><br>
+    Email<br><input type="email" name="email" placeholder="fill ur email" class="irshad"><br>
+    Password<br><input type="password" name="password" placeholder="XXXXXXXXXX" class="irshad"><br>
+    Phone<br><input type="tel" name="phone" placeholder="fill ur number" class="irshad"><br>
+    Date<br><input type="date" name="date" class="irshad"><br>
+    Gender<br><input name="gender" value="M" type="radio">Male</input>
+    <input type="radio" name="gender" value="F">Female</input><br>
+    <section>
+      Select your interest sports<br>
+      <input name="sport" value="volleyball" type="checkbox">Volleyball</input>
+      <input name="sport" value="cricket" type="checkbox">Cricket</input>
+      <input name="sport" value="hokey" type="checkbox">Hokey</input><br>
+      Select Your District<br>
+      <select class="irshad" name="district">
+        <option></option>
+        <option>Palnadu</option>
+        <option>Krishna</option>
+        <option>Eastgodavari</option>
+        <option>Guntur</option>
+        <option>Nalgonda</option>
+      </select><br>
+      Tell Us About Ur Self<br>
+      <textarea class="irshad" name="discription"></textarea><br>
+      <input type="reset">
+      <input type="submit">
+
+  </form>
+</body>
+
+</html>
