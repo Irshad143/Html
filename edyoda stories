@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,  intial-scale=1.0">
+  <title>Assingment</title>
+  <style>
+    /* sir i try to make header fixed. the header fixed but it occupies only 75% remaing is showing body i hope i will better after completion of css course. thankyou
+    .sai{
+      position:fixed;
+    }*/
+    .header {
+      margin: 0;
+      padding: 30px 5px 0px 5px;
+      ;
+      border: 20px 30px 20px 30px;
+      background-color: gray;
+      display: flex;
+      Text size: 32px;
+      Text color: #0084ff;
+    }
+
+    .stdiv {
+      flex: 1;
+    }
+
+    .nddiv {
+      flex: 1;
+    }
+
+    .rddiv {
+      flex: 1;
+    }
+
+    .thdiv {
+      padding: 50px 5px 10px 5px;
+      flex: 1;
+    }
+
+    .class {
+      background-color: lightblue;
+    }
+
+
+    body {
+      background-color: darkgoldenrod;
+    }
+
+    .riyaz {
+      margin: 0;
+      padding: 10px 10px;
+      border: 20px 30px 20px 30px;
+      background-color: lightgoldenrodyellow;
+
+    }
+
+    .total {
+      margin: 0;
+      background-color: greenyellow;
+      padding: 10px 10px;
+      border: 20px 30px 20px 30px;
+      background-color: gray;
+    }
+
+    .abdulla {
+
+      display: flex;
+
+    }
+
+    .footer_1 {
+      flex: 1;
+    }
+
+    .footer_2 {
+      flex: 1;
+    }
+
+    #headleft {
+      text-decoration: underline;
+      text-align: center;
+    }
+
+    .image {
+      margin: 0;
+      border: 10px 10px 10px 10px;
+      padding: 0;
+      display: flex;
+
+    }
+
+    .image_1 {
+      margin: 0px;
+      padding: 0px 20px;
+      flex: 1;
+    }
+
+    .image_2 {
+      margin: 0px;
+      padding: 0px;
+      flex: 1;
+    }
+
+    .image_1 {
+
+      display: auto-flow;
+
+    }
+
+    .image_3 {
+      flex: 1;
+      order: 1;
+    }
+
+    .image_4 {
+      flex: 2;
+      order: 2;
+    }
+
+    .main {
+      margin: 0;
+      padding: 20px 30px 20px 30px;
+      display: flex;
+    }
+
+    .second {
+      display: flex;
+    }
+
+    .lamp2 {
+      width: 30.3%;
+      height: 500px;
+      padding: 10px 24px;
+      text-color: #0096ff;
+      flex: 1;
+
+    }
+
+    .lamp {
+      width: 30.3%;
+      height: 500px;
+      padding: 10px 24px;
+      text-color: #0099ff;
+      flex: 1;
+    }
+
+    .id1_1 {
+      width: 100%;
+      height: 100%;
+      height: 250px;
+      Border-top-left-radius: 5px;
+      Border-top-right-radius: 5px;
+    }
+
+    .id1_2 {
+      Text-size: 18px Text alignment: left;
+      Margins: 0 Text weight: 600
+    }
+
+    .id1_3 {
+      Text-color: rgba(0, 0, 0, 0.7);
+      Text-size: 14px;
+      Text-weight: 300
+    }
+
+    .id1_4 {
+      Text-Size: 14px;
+      Text-weight: 400;
+      Line-height: 1.43;
+      Text-color: rgba(0, 0, 0, .6);
+      Margins: 4px 0
+    }
+
+    a {
+      text-color: black;
+      text-decoration: none;
+
+    }
+    .abid{
+      Paddings: 6px 14px;
+      Width: auto;
+      Text-color: #0084ff;
+      Border-radius: 15px;
+      Border: 1px solid #0084ff;
+      Margins: 5px;
+      Cursor: pointer;
+      Text-color: #fff;
+Background-color: lightblue;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="sai">
+    <div class="header">
+      <div class="stdiv">
+        <h2>EDYODA</h2>
+        <h4>STORIES</h4>
+      </div>
+      <div class="nddiv">
+        <label for="select">Explore Category</label>
+        <select id="select">
+          <option></option>
+          <option>Lamp Vs Mean stack</option>
+           <option>Cloud Computing</option>
+          <option>Machine Learing</option>
+          <option>Understanding Devops</option>
+          <option>Cyber Security</option>
+          <option>Income Share Agreement</option>
+         
+        </select><br>
+      </div>
+      <div class="rddiv">
+        <p>EdYoda is free learning and knowledge
+          sharing platform for techies</p>
+      </div>
+      <div class="thdiv">
+        <a href="https://www.edyoda.com/"><input class="class" type="button" value="GO TO Main Website"></a>
+      </div>
+    </div>
+
+
+  </header>
+
+  <section>
+    <section class="riyaz">
+      <h1>Trending Posts</h1>
+      <div class="image">
+        <div class="image_2">
+          <img width="800" height="400"
+            src="https://edyoda.s3.amazonaws.com/media/blog-images/automation-testing-an-overview-2.png">
+        </div>
+        <div class="image_1">
+          <div class="image_3">
+            <img width="400" height="200"
+              src="https://edyoda.s3.amazonaws.com/media/blog-images/how-humans-tame-the-world-with-artificial-intelligence.jpg">
+          </div>
+          <div class="image_4">
+            <img width="400" height="200" src="https://edyoda.s3.amazonaws.com/media/blog-images/aptitude-small.jpg">
+          </div>
+        </div>
+
+      </div>
+      <br>
+      <h3>Latest Posts</h3>
+      <a href="#lampmean"><input type="button" value="Lamp Vs Mean" class="abid"></a>
+      <a href="#cloud"><input type="button" value="Cloud computing" class="abid"></a>
+      <a href="#machine"><input type="button" value="Machine Learing" class="abid"></a>
+       <a href="#devops"><input type="button" value="Understanding Devops" class="abid"></a>
+       <a href="#cyber"><input type="button" value="Cyber Security" class="abid"></a>
+       <a href="#income"><input type="button" value="Income Share Agreement" class="abid"></a>
+
+
+
+    </section>
+
+    <div class="main">
+
+
+      <div class=lamp id="lampmean">
+        <a
+          href="https://www.edyoda.com/stories/lamp-stack-vs-mean-stack-choosing-the-right-platform-for-your-web-application-development">
+          <div>
+            <img class="id1_1" src="https://edyoda.s3.amazonaws.com/media/blog-images/Mean_Stack_vs_LAMP_stack.png">
+            <h2 class="id1_2">LAMP Stack Vs MEAN stack: Choosing the right platform for your web application development
+            </h2>
+            <p class="id1-3">edyoda|
+              24 Aug 2019</p>
+            <p class="id1_4">Innovation and us holds a bond that compliments each other. Digital transformations without
+              cloud
+              computing as its partner are like a half-built bridge</p>
+          </div>
+        </a>
+      </div>
+
+
+      <div class=lamp id="cloud">
+        <img class="id1_1"
+          src="https://edyoda.s3.amazonaws.com/media/blog-images/cloud-computing-an-umbrella-term-that-enables-digital-transformation_3qTFXlw.jpg">
+        <h2 class="id1_2">Cloud Computing- An Umbrella Term that enables Digital Transformation</h2>
+        <p class="id1-3"><a href="https://drive.google.com/file/d/19eh58upPd123uaEncAnMBcQaMNPWvH9-/preview">edyoda|</a>
+          23 jul 2019</p>
+        <p class="id1_4">Innovation and us holds a bond that compliments each other. Digital transformations without
+          cloud
+          computing as its partner are like a half-built bridge</p>
+      </div>
+
+
+      <div class=lamp id="machine">
+        <a href="https://www.edyoda.com/stories/introduction-to-a-machine-learning-online-course">
+          <div>
+            <img class="id1_1"
+              src="https://edyoda.s3.amazonaws.com/media/blog-images/learn_machine_learning_courses_online_x2fpIz6.png">
+            <h2 class="id1_2">Introduction To A Machine Learning Online Course</h2>
+            <p class="id1-3">edyoda|
+              23 jul 2019</p>
+            <p class="id1_4">We have had an insight into Artificial Intelligence. Well, one of its subfields is machine
+              learning and this introduction will help you get a fair idea of what a machine learning online course
+              holds
+            </p>
+          </div>
+        </a>
+      </div>
+    </div>
+
+
+
+
+
+    <div class="second">
+      <div class=lamp2 id="devops">
+        <a href="https://www.edyoda.com/stories/understanding-devops">
+          <div>
+            <img class="id1_1" src="https://edyoda.s3.amazonaws.com/media/blog-images/understanding-devops_LI08hxv.jpg">
+            <h2 class="id1_2">Understanding DevOps</h2>
+            <p class="id1-3">edyoda|
+              25 sep 2019</p>
+            <p class="id1_4">DevOps is a term derived after combining development and operation for a common purpose-
+              driving the development of operational processes.</p>
+          </div>
+        </a>
+      </div>
+
+
+      <div class=lamp id="cyber">
+        <a href="https://www.edyoda.com/stories/breaking-the-myths-around-cybersecurity">
+          <div>
+            <img class="id1_1" src="https://edyoda.s3.amazonaws.com/media/blog-images/5_9jUbbUb.png">
+            <h2 class="id1_2">Breaking the Myths around Cybersecurity</h2>
+            <p class="id1-3">edyoda|
+              26 Aug 2019</p>
+            <p class="id1_4">Innovation and us holds a bond that compliments each other. Digital transformations without
+              cloud
+              computing as its partner are like a half-built bridge</p>
+          </div>
+        </a>
+      </div>
+
+
+      <div class=lamp id="income">
+        <a href="https://www.edyoda.com/stories/what-is-income-share-agreement">
+          <div>
+            <img class="id1_1" src="https://edyoda.s3.amazonaws.com/media/blog-images/what_is_isa_blog_1_Ol9zdTB.png">
+            <h2 class="id1_2">What is Income Share Agreement?</h2>
+            <p class="id1-3">edyoda|
+              14 Oct 2019</p>
+            <p class="id1_4">The term Income Share Agreement has been around for a long time since 1955 to be precise.
+              Surprised, eh? It was first introduced by Milton Friedman.</p>
+          </div>
+        </a>
+      </div>
+
+
+
+    </div>
+
+
+
+  </section>
+  <footer>
+    <div class="total">
+      <h1 id="headleft">Contact Us</h1>
+      <div class="abdulla">
+
+        <div class="footer_1">
+          <h2>Edyoda</h2>
+          <a href="https://www.edyoda.com/contact-us" class="abid">Contact Us</a><br>
+          <a href="https://www.edyoda.com/privacy" class="abid">Privacy Policy</a>
+        </div>
+        <div class="footer_2">
+          <p>nd Floor #188, Survey No. - 123/1,</p>
+          <p>Incubes Building Next to McDonalds,</p>
+          <p>ITPL Main Rd, Brookefield,</p>
+          <p>Bengaluru, Karnataka-560037,</p>
+          <p>India</p>
+          <p>EdYoda Email Iconhello@edyoda.com</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+
+
+
+</html>
